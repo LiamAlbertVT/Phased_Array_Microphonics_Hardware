@@ -1,0 +1,6 @@
+# KiCad ignores
+*.lck
+*.bkp
+fp-info-cache
+*.zip
+_autosave-*
