@@ -4,3 +4,6 @@
 fp-info-cache
 *.zip
 _autosave-*
+
+# Footprint
+/footprints.pretty
