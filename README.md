@@ -1,13 +1,15 @@
 ## Recent Updates
-- Began schematic design
-- Designed summing op-amp (without resistor values)
-- Noise filtration for ADC (values found on datasheet, see docs)
+- Determined that new delay modules are needed (shocker, right?). Researched a bit and found the [SSI2100 IC](https://www.soundsemiconductor.com/downloads/ssi2100datasheet.pdf). This is a modern [bucket-brigade device (BBD)](https://en.wikipedia.org/wiki/Bucket-brigade_device) with high clock speeds (up to 2MHz) compared to other BBDs which are clocked much slower. Assuming the microphone displacement is at least 1dm (decimeter), there should be no issues.
+- Appended high-frequency filtration logic to the output of the SSI2100. I need to know which frequencies to attenuate before I override them.
+- Improved logic throughout the circuit to avoid discrepancies.
 
 ## TODO
-- Import block symbols & footprints
-- Determine resistor values
-- Assess feedback & delay modules
+- Determine microphone connectivity (I/O current, port type, etc.).
+- Determine resistor values (will complete after rudimentary design is finished).
+- Assess feedback module.
+- Add design documentation and maintain it.
 
 ## Future Plans
-- Enable communication w/ pico (C/C++? Rust?)
-  - Will add embedded directory to this repo
+- Translate schematic into PCB.
+- Enable communication with Raspberry Pi Pico.
+  - Will eventually add embedded directory to this repo.
