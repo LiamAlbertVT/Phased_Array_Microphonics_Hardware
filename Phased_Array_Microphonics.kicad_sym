@@ -384,7 +384,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SSI_2100"
+	(symbol "SSI2100"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -422,7 +422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bucket Brigade Delay (BBD) with minimum 256ms delay"
+		(property "Description" "Bucket-Brigade Device (BBD) with minimum 256ms delay"
 			(at 0 0 0)
 			(effects
 				(font
@@ -440,7 +440,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SSI_2100_0_1"
+		(symbol "SSI2100_0_1"
 			(rectangle
 				(start -10.16 7.62)
 				(end 10.16 -8.89)
@@ -453,7 +453,7 @@
 				)
 			)
 		)
-		(symbol "SSI_2100_1_1"
+		(symbol "SSI2100_1_1"
 			(pin power_in line
 				(at -12.7 5.08 0)
 				(length 2.54)
