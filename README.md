@@ -13,3 +13,5 @@
 - Translate schematic into PCB.
 - Enable communication with Raspberry Pi Pico.
   - Will eventually add embedded directory to this repo.
+
+[ADC Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/21298e.pdf)
