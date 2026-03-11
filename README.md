@@ -1,20 +1,27 @@
 ## Recent Updates
-- Calculated/estimated component values for *most* of the circuit (see TODO).
-- Added power circuitry to handle voltage drops and avoid the use of phantom power for areas other than the XLR I/O.
-- Removed redundant circuits/components.
-- Organized schematic for readability.
-- Updated schematic image.
+- Completed schematic design, i.e.:
+  - Chose all component values.
+  - Selected specific parts for all active components (except for RLC---will use generic ones).
+  - Revised logic and parts to obtain desired performance.
+    - Removed second stage of summation amplifier.
+    - Replaced THAT 1200 ICs with THAT 1512 ICs to provide preamplification[^1].
+    - Switched status LED configuration to be in parallel with the NMOS bias path.
+  - Completed power design[^2].
+  - Revised schematic image & replaced *Images* directory with *Documents*. The schematic is found here.
+  - Uploaded parts list with datasheets, purchase links, and amounts needed to *Documents*. I did not provide links to passive components (i.e. RLC).
 
 ## TODO (Next Commit)
-- Design buck (DC-DC) converter (need to choose component values and optimize layout if possible).
-- Find specific and optimal parts for all active and passive components.
-- Find optimal ±15V supplies (dual-power supplies).
+- Design/acquire footprints for each part.
+- Trace connections onto PCB layout.
+  - Will likely be a four-layer board for ease of design. If I can work with two, we'll do it to save on cost.
+- Revise schematic upon review (only if necessary; otherwise, you won't see it updated).
 
 ## Future Plans
-- Translate schematic into PCB.
-  - Design/import footprints for each component (this will be fun...).
-  - Determine number of PCB layers (we can probably use 4 thanks to budget).
-  - Trace valid connections to mimic schematic.
-- Get schematic reviewed (can be done during PCB design process).
 - Enable communication with Raspberry Pi Pico.
   - Will eventually add embedded directory to this repo with sample code.
+- Produce documentation to provide insight into the design.
+  - I will not discuss design revisions... I will only discuss the final version that I produce this semester.
+  - I will primarily discuss the schematic because the PCB only concerns routing.
+
+[^1]: This is necessary to convert the small microphone outputs (μV) into signals that are readable (mV). The THAT 1200 ICs did not amplify.
+[^2]: We will use a wall mount to convert the AC from an outlet to +15V, 1A DC, followed by a DC-DC converter to acquire two independent channels (±15V, 500mA each). The full power design will be outlined in the final documentation (see future plans).
