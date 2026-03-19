@@ -263,6 +263,260 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Amplifier_Operational:OPA1656ID"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA1656ID"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1656.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPA1656ID_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1656ID_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1656ID_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Audio:NC3FAAH"
 			(pin_names
 				(hide yes)
@@ -618,6 +872,156 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1300,173 +1704,6 @@
 					(at 3.81 0 180)
 					(length 1.27)
 					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:1N4001"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4001"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4001_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4001_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3236,27 +3473,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Phased_Array_Microphonics:OPA1611"
+		(symbol "Phased_Array_Microphonics:OPA1611AIDR"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "OPA1611AIDR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "D0008A_N"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
+					(hide yes)
 				)
 			)
-			(property "Value" "OPA1611"
+			(property "Datasheet" "https://www.ti.com/lit/gpn/opa1611"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3265,7 +3525,15 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1611.pdf?ts=1773113041969&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA1611"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "OPA1611AIDR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3274,7 +3542,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Precision op-amp"
+			(property "ki_fp_filters" "D0008A_N D0008A_M D0008A_L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3283,40 +3551,191 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPA1611_1_1"
-				(rectangle
-					(start -6.35 7.62)
-					(end 6.35 -8.89)
+			(symbol "OPA1611AIDR_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 -5.08)
+					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin no_connect line
-					(at -8.89 5.08 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -1.778) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -1.778) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -1.778) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin input line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "-IN"
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "IN-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3332,9 +3751,9 @@
 					)
 				)
 				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "+IN"
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "IN+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3350,44 +3769,8 @@
 					)
 				)
 				(pin power_in line
-					(at -8.89 -6.35 0)
-					(length 2.54)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 8.89 5.08 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 1.27 180)
-					(length 2.54)
+					(at 0 10.16 270)
+					(length 5.08)
 					(name "V+"
 						(effects
 							(font
@@ -3403,9 +3786,27 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
-					(at 8.89 -2.54 180)
-					(length 2.54)
+					(at 10.16 0 180)
+					(length 5.08)
 					(name "OUT"
 						(effects
 							(font
@@ -3421,89 +3822,59 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 8.89 -6.35 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(embedded_fonts no)
-		)
-		(symbol "Phased_Array_Microphonics:OPA486"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "OPA1611AIDR_2_1"
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -7.62 -7.62)
 					)
-				)
-			)
-			(property "Value" "OPA486"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2486.pdf?ts=1773082020607&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA2486"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Precision op-amp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OPA486_1_1"
-				(rectangle
-					(start -6.35 7.62)
-					(end 6.35 -8.89)
 					(stroke
-						(width 0)
+						(width 0.1016)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin no_connect line
-					(at -8.89 5.08 0)
-					(length 2.54)
+				(polyline
+					(pts
+						(xy -7.62 -7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.1016)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0.1016)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.1016)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 5.08)
 					(name "NC"
 						(effects
 							(font
@@ -3519,117 +3890,9 @@
 						)
 					)
 				)
-				(pin input line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 -6.35 0)
-					(length 2.54)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 8.89 5.08 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 8.89 -6.35 180)
-					(length 2.54)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 5.08)
 					(name "NC"
 						(effects
 							(font
@@ -3638,6 +3901,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4816,6 +5097,322 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Simulation_SPICE:PMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -5491,7 +6088,7 @@
 		(uuid "5854c7e0-e8b8-479f-8da4-56cdf9a93292")
 	)
 	(junction
-		(at 321.31 234.95)
+		(at 318.77 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d9a7fc5-74b9-450f-b173-00c2919c9b91")
@@ -5695,12 +6292,6 @@
 		(uuid "cef534eb-8b68-4ecd-9caa-2e7feb8c6396")
 	)
 	(junction
-		(at 280.67 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d34faef8-2ad4-42d7-aab2-6a8ad91737a2")
-	)
-	(junction
 		(at 247.65 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5713,7 +6304,7 @@
 		(uuid "d58e4c38-c632-44f5-aa84-0fd7f082d287")
 	)
 	(junction
-		(at 280.67 234.95)
+		(at 280.67 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6972cdd-1071-4740-83ad-d4733f540868")
@@ -5839,6 +6430,12 @@
 		(uuid "fa13ceb4-c518-472c-8da2-dcebfcf4beed")
 	)
 	(junction
+		(at 247.65 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb019fa3-3771-4651-9b3d-aaeb50ba0eed")
+	)
+	(junction
 		(at 378.46 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5908,16 +6505,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 238.76) (xy 297.18 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c22f39-7064-46c6-91ee-9369d77cc2be")
-	)
-	(wire
-		(pts
 			(xy 83.82 41.91) (xy 83.82 46.99)
 		)
 		(stroke
@@ -5935,16 +6522,6 @@
 			(type default)
 		)
 		(uuid "06876e5b-62ba-4727-907c-2a3fefaa2979")
-	)
-	(wire
-		(pts
-			(xy 318.77 231.14) (xy 314.96 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06a1a620-9c51-46f4-b5f5-685b2cac20fc")
 	)
 	(wire
 		(pts
@@ -5968,7 +6545,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 100.33) (xy 273.05 100.33)
+			(xy 247.65 104.14) (xy 271.78 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6055,16 +6632,6 @@
 			(type default)
 		)
 		(uuid "0b0d890a-a3e1-4fe4-ae7e-3d0b26c2a6a6")
-	)
-	(wire
-		(pts
-			(xy 273.05 107.95) (xy 270.51 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b24f51c-69d4-4da5-bd44-bb9d4548afbd")
 	)
 	(wire
 		(pts
@@ -6228,23 +6795,13 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 232.41) (xy 280.67 234.95)
+			(xy 280.67 224.79) (xy 280.67 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1438064e-149f-4409-a3d5-8f341ed5389e")
-	)
-	(wire
-		(pts
-			(xy 294.64 91.44) (xy 294.64 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d0a23c-919d-4a10-915c-21aba962a1c6")
 	)
 	(wire
 		(pts
@@ -6598,6 +7155,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 100.33) (xy 205.74 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6667fd-26c0-4a3a-9348-fc8bfc7c7f3c")
+	)
+	(wire
+		(pts
 			(xy 182.88 218.44) (xy 189.23 218.44)
 		)
 		(stroke
@@ -6618,7 +7185,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 234.95) (xy 297.18 234.95)
+			(xy 280.67 227.33) (xy 297.18 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6838,7 +7405,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 231.14) (xy 290.83 245.11)
+			(xy 290.83 232.41) (xy 290.83 237.49)
 		)
 		(stroke
 			(width 0)
@@ -7148,26 +7715,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 100.33) (xy 294.64 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46cf4e52-599b-4bca-9d1e-3ed65e089d9f")
-	)
-	(wire
-		(pts
-			(xy 270.51 107.95) (xy 270.51 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47ab6662-86be-47ea-b09a-7199683f078a")
-	)
-	(wire
-		(pts
 			(xy 233.68 276.86) (xy 223.52 276.86)
 		)
 		(stroke
@@ -7275,16 +7822,6 @@
 			(type default)
 		)
 		(uuid "4a2c2c65-c411-40ad-ad4d-8dd74b7c49ea")
-	)
-	(wire
-		(pts
-			(xy 200.66 100.33) (xy 205.74 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aa2e31a-a415-431d-baec-e94510bc6cdc")
 	)
 	(wire
 		(pts
@@ -7588,16 +8125,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 104.14) (xy 313.69 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58c08d57-7e9c-40d2-a5dd-a57a9b9e9ffe")
-	)
-	(wire
-		(pts
 			(xy 452.12 193.04) (xy 454.66 193.04)
 		)
 		(stroke
@@ -7695,16 +8222,6 @@
 			(type default)
 		)
 		(uuid "5c332e0e-b360-47ab-9950-b5aedba5615d")
-	)
-	(wire
-		(pts
-			(xy 280.67 217.17) (xy 318.77 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce45790-5419-4e9e-9f7b-551e4afd3811")
 	)
 	(wire
 		(pts
@@ -7838,16 +8355,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 100.33) (xy 247.65 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6257178b-a824-415c-b585-b78ce13e1dce")
-	)
-	(wire
-		(pts
 			(xy 62.23 64.77) (xy 62.23 77.47)
 		)
 		(stroke
@@ -7858,7 +8365,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 234.95) (xy 321.31 234.95)
+			(xy 312.42 229.87) (xy 318.77 229.87)
 		)
 		(stroke
 			(width 0)
@@ -8088,7 +8595,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 91.44) (xy 313.69 104.14)
+			(xy 313.69 91.44) (xy 313.69 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8185,6 +8692,16 @@
 			(type default)
 		)
 		(uuid "6ed94c4b-90dd-4d43-b101-dcbbdb86e5e5")
+	)
+	(wire
+		(pts
+			(xy 271.78 114.3) (xy 271.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa4435a-60e5-48b6-bea3-51f196d9b400")
 	)
 	(wire
 		(pts
@@ -8388,16 +8905,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 217.17) (xy 318.77 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c384447-6618-4902-8a89-532e939b9e56")
-	)
-	(wire
-		(pts
 			(xy 138.43 46.99) (xy 151.13 46.99)
 		)
 		(stroke
@@ -8465,16 +8972,6 @@
 			(type default)
 		)
 		(uuid "7e614b77-921e-4d5a-861b-b1a03cc10ba6")
-	)
-	(wire
-		(pts
-			(xy 280.67 217.17) (xy 280.67 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eb3f3a4-643c-4481-b032-4641e114a754")
 	)
 	(wire
 		(pts
@@ -8685,6 +9182,16 @@
 			(type default)
 		)
 		(uuid "883a6919-3e2d-40ad-8e2f-e616a8aa320d")
+	)
+	(wire
+		(pts
+			(xy 247.65 104.14) (xy 247.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d77c94-677d-442e-ae6f-9be6ee9b95a1")
 	)
 	(wire
 		(pts
@@ -9198,16 +9705,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 104.14) (xy 265.43 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6b205a7-b887-4982-84c7-df1fa85148a9")
-	)
-	(wire
-		(pts
 			(xy 26.67 64.77) (xy 26.67 67.31)
 		)
 		(stroke
@@ -9268,7 +9765,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 231.14) (xy 290.83 231.14)
+			(xy 297.18 232.41) (xy 290.83 232.41)
 		)
 		(stroke
 			(width 0)
@@ -9548,7 +10045,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 245.11) (xy 280.67 247.65)
+			(xy 280.67 237.49) (xy 280.67 240.03)
 		)
 		(stroke
 			(width 0)
@@ -9778,6 +10275,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 106.68) (xy 313.69 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b503a4-5696-4fcd-9e05-be012e1c99f5")
+	)
+	(wire
+		(pts
 			(xy 175.26 151.13) (xy 193.04 151.13)
 		)
 		(stroke
@@ -9785,6 +10292,16 @@
 			(type default)
 		)
 		(uuid "c45f0d32-7358-4d59-b506-0cbaa7f34b34")
+	)
+	(wire
+		(pts
+			(xy 281.94 95.25) (xy 281.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c52e3852-f041-4c08-bbef-a7f66e7fe6b0")
 	)
 	(wire
 		(pts
@@ -9958,7 +10475,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 234.95) (xy 326.39 234.95)
+			(xy 318.77 229.87) (xy 323.85 229.87)
 		)
 		(stroke
 			(width 0)
@@ -10168,6 +10685,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 100.33) (xy 247.65 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d719f82e-6c70-4ec7-b562-dbe336538fa2")
+	)
+	(wire
+		(pts
 			(xy 43.18 327.66) (xy 43.18 334.01)
 		)
 		(stroke
@@ -10248,6 +10775,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 116.84) (xy 281.94 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db137119-c3e4-4069-8883-454a637d958d")
+	)
+	(wire
+		(pts
 			(xy 62.23 104.14) (xy 66.04 104.14)
 		)
 		(stroke
@@ -10298,7 +10835,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 234.95) (xy 280.67 237.49)
+			(xy 280.67 227.33) (xy 280.67 229.87)
 		)
 		(stroke
 			(width 0)
@@ -10418,23 +10955,13 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 245.11) (xy 321.31 245.11)
+			(xy 290.83 237.49) (xy 318.77 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7b2225f-0a18-43f2-ac0e-977a87f62013")
-	)
-	(wire
-		(pts
-			(xy 273.05 104.14) (xy 265.43 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e82852b1-638d-4690-91df-f7cf125240b2")
 	)
 	(wire
 		(pts
@@ -10768,16 +11295,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 238.76) (xy 294.64 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe8dd782-62b2-46c1-8daa-29395cde5390")
-	)
-	(wire
-		(pts
 			(xy 480.06 53.34) (xy 500.38 53.34)
 		)
 		(stroke
@@ -10798,7 +11315,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 245.11) (xy 321.31 234.95)
+			(xy 318.77 237.49) (xy 318.77 229.87)
 		)
 		(stroke
 			(width 0)
@@ -10995,28 +11512,6 @@
 		(uuid "1feb8637-e13d-4116-88dd-16ca523db2ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 239.0405 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-5V"
-		(shape input)
-		(at 294.64 250.19 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22fb719f-da73-4ec7-ae49-7c3957797e9b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.64 257.0457 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11270,7 +11765,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 294.64 91.44 90)
+		(at 281.94 95.25 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11280,7 +11775,7 @@
 		)
 		(uuid "5ae59a8d-55b7-4ef7-a345-5423c8b21106")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.64 84.5843 90)
+			(at 281.94 88.3943 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11556,7 +12051,7 @@
 	)
 	(global_label "VT_BIAS"
 		(shape output)
-		(at 326.39 234.95 0)
+		(at 323.85 229.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11566,7 +12061,7 @@
 		)
 		(uuid "9473461f-3812-48bf-9924-22cc4131462e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 336.5719 234.95 0)
+			(at 334.0319 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11688,7 +12183,7 @@
 	)
 	(global_label "-5V"
 		(shape input)
-		(at 270.51 116.84 270)
+		(at 281.94 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11698,7 +12193,7 @@
 		)
 		(uuid "a932ac22-90df-4c0d-9168-f6726ecc3850")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.51 123.6957 90)
+			(at 281.94 124.9657 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12306,7 +12801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phased_Array_Microphonics:NE5532DR"
 			(at 496.57 190.5 0)
 			(effects
 				(font
@@ -12367,6 +12862,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA1656ID")
+		(at 304.8 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "019bb51b-2d1c-42a2-8f64-9ee206897e76")
+		(property "Reference" "U15"
+			(at 304.8 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1656ID"
+			(at 304.8 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 304.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1656.pdf"
+			(at 304.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 304.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ccc0be80-bd87-4e70-868e-a1accbcf0275")
+		)
+		(pin "5"
+			(uuid "9bdade56-a712-4acb-98d1-9d858752d0fc")
+		)
+		(pin "2"
+			(uuid "d4f06517-6d16-4ca5-9b73-1baf26db2a4e")
+		)
+		(pin "1"
+			(uuid "4aa323e5-054f-49a8-a641-f4cb45debee6")
+		)
+		(pin "6"
+			(uuid "1a54899e-d742-44f8-a95b-18a7bfed5715")
+		)
+		(pin "4"
+			(uuid "0457d52b-807d-44b5-9c34-7c277d29391a")
+		)
+		(pin "7"
+			(uuid "99c5463e-4494-438a-b9a0-79f15158b341")
+		)
+		(pin "8"
+			(uuid "7859709f-44df-4cee-b2e8-1b12d20c422b")
+		)
+		(instances
+			(project ""
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 179.07 218.44 90)
 		(unit 1)
@@ -12384,7 +12965,7 @@
 				)
 			)
 		)
-		(property "Value" "30m"
+		(property "Value" "11u"
 			(at 179.07 215.9 90)
 			(effects
 				(font
@@ -12392,7 +12973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_APV_APH1265"
 			(at 179.07 218.44 0)
 			(effects
 				(font
@@ -12528,7 +13109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 451.1548 257.81 0)
 			(effects
 				(font
@@ -12775,104 +13356,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 160.02 220.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0748171d-a647-4a34-8bbd-1fd46e81da53")
-		(property "Reference" "Q6"
-			(at 160.02 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 160.02 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Phased_Array_Microphonics:2N7002NXAKR"
-			(at 157.48 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 172.72 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 160.02 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 177.165 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 179.07 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 175.26 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dcfd0e5e-dcd4-4236-94c9-2bfb92384fc4")
-		)
-		(pin "1"
-			(uuid "76136efb-30b0-4b72-a03f-0302d0c3a0fd")
-		)
-		(pin "3"
-			(uuid "8e9417c8-8084-403d-b884-f3c5d66c6d22")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Phased_Array_Microphonics:JS102011SAQN")
 		(at 200.66 153.67 0)
 		(unit 1)
@@ -13050,7 +13533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.04 78.4352 0)
 			(effects
 				(font
@@ -13254,7 +13737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 463.8548 257.81 0)
 			(effects
 				(font
@@ -13476,7 +13959,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.04 144.4752 0)
 			(effects
 				(font
@@ -13701,7 +14184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 426.72 129.8448 0)
 			(effects
 				(font
@@ -13836,7 +14319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
+		(property "Footprint" "Module:RaspberryPi_Pico_SMD"
 			(at 68.58 232.41 0)
 			(effects
 				(font
@@ -14126,7 +14609,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 280.67 241.3 0)
+		(at 280.67 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14135,7 +14618,7 @@
 		(fields_autoplaced yes)
 		(uuid "267e8f7f-a3a6-4e24-8263-627880aac737")
 		(property "Reference" "R22"
-			(at 283.21 240.0299 0)
+			(at 283.21 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14144,7 +14627,7 @@
 			)
 		)
 		(property "Value" "14k"
-			(at 283.21 242.5699 0)
+			(at 283.21 234.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14153,7 +14636,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 278.892 241.3 90)
+			(at 278.892 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14162,7 +14645,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 280.67 241.3 0)
+			(at 280.67 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14171,7 +14654,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 280.67 241.3 0)
+			(at 280.67 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14640,7 +15123,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.04 183.8452 0)
 			(effects
 				(font
@@ -14819,6 +15302,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 170.18 227.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "434dc271-d54b-401f-a8a9-613e94ce35fa")
+		(property "Reference" "D2"
+			(at 172.72 225.7424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 172.72 228.2824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 170.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 170.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b54b9331-c419-4b64-a300-66c04dbc4dc3")
+		)
+		(pin "1"
+			(uuid "d817f8f4-4664-48a2-a4cb-1c761bfd33ed")
+		)
+		(instances
+			(project ""
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 452.12 199.39 180)
 		(unit 1)
@@ -14846,7 +15399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 451.1548 195.58 0)
 			(effects
 				(font
@@ -15227,94 +15780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 170.18 227.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49841cde-1311-4484-b18a-f7d7054fc291")
-		(property "Reference" "D3"
-			(at 172.72 226.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 172.72 228.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 170.18 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 170.18 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 170.18 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 170.18 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 170.18 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcaeb13d-7993-4c66-ae73-57254f1740fd")
-		)
-		(pin "2"
-			(uuid "93c3a014-eaa3-4b55-88ea-862fc9868d59")
-		)
-		(instances
-			(project ""
-				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 439.42 261.62 180)
 		(unit 1)
@@ -15342,7 +15807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 438.4548 257.81 0)
 			(effects
 				(font
@@ -15480,7 +15945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.04 65.7352 0)
 			(effects
 				(font
@@ -15548,7 +16013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.37 326.6948 0)
 			(effects
 				(font
@@ -15684,7 +16149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phased_Array_Microphonics:NCP718BSNADJT1G"
 			(at 208.28 264.16 0)
 			(effects
 				(font
@@ -15764,7 +16229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.04 196.5452 0)
 			(effects
 				(font
@@ -15832,7 +16297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.44 234.6452 0)
 			(effects
 				(font
@@ -15968,7 +16433,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 438.4548 133.35 0)
 			(effects
 				(font
@@ -16038,7 +16503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 190.1952 231.14 0)
 			(effects
 				(font
@@ -16172,7 +16637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phased_Array_Microphonics:NE5532DR"
 			(at 496.57 252.73 0)
 			(effects
 				(font
@@ -16575,6 +17040,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 160.02 220.98 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d273127-bdcb-4333-a79c-5eb6cd831f61")
+		(property "Reference" "Q6"
+			(at 160.02 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 160.02 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Microphonics:2N7002NXAKR"
+			(at 162.56 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 147.32 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 160.02 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 142.875 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 140.97 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 144.78 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1f2492bb-051d-491a-9803-22781f8dcfbd")
+		)
+		(pin "1"
+			(uuid "e26e73bf-2a58-4630-b1f7-ac286774c6d1")
+		)
+		(pin "2"
+			(uuid "87744ea6-21a4-4274-9471-0d5bdd5dac91")
+		)
+		(instances
+			(project ""
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 156.21 102.87 90)
 		(unit 1)
@@ -16765,7 +17328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC14-N_MC_MCH"
+		(property "Footprint" "Phased_Array_Microphonics:MCP3204T_CI_SL"
 			(at 327.66 152.4 0)
 			(effects
 				(font
@@ -16871,7 +17434,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phased_Array_Microphonics:NCP718BSNADJT1G"
 			(at 167.64 264.16 0)
 			(effects
 				(font
@@ -17061,7 +17624,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 247.65 0)
+		(at 280.67 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17070,7 +17633,7 @@
 		(fields_autoplaced yes)
 		(uuid "648eacd0-5e53-40ff-98a9-f2c4aa3dfac7")
 		(property "Reference" "#PWR030"
-			(at 280.67 254 0)
+			(at 280.67 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17079,7 +17642,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 280.67 252.73 0)
+			(at 280.67 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17087,7 +17650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 247.65 0)
+			(at 280.67 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17096,7 +17659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 247.65 0)
+			(at 280.67 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17105,7 +17668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 247.65 0)
+			(at 280.67 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17127,7 +17690,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 280.67 228.6 180)
+		(at 280.67 220.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17136,7 +17699,7 @@
 		(fields_autoplaced yes)
 		(uuid "64b78cc1-69dc-4e98-be13-038caa76d42b")
 		(property "Reference" "R21"
-			(at 283.21 227.3299 0)
+			(at 283.21 219.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17145,7 +17708,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 283.21 229.8699 0)
+			(at 283.21 222.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17154,7 +17717,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 282.448 228.6 90)
+			(at 282.448 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17163,7 +17726,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 280.67 228.6 0)
+			(at 280.67 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17172,7 +17735,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 280.67 228.6 0)
+			(at 280.67 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17190,6 +17753,94 @@
 			(project "Motherboard"
 				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Microphonics:OPA1611AIDR")
+		(at 281.94 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "668f8de5-bde1-4142-a960-9bf14007b9d0")
+		(property "Reference" "U1"
+			(at 295.91 100.2598 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "OPA1611AIDR"
+			(at 295.91 102.7998 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Microphonics:OPA1611AIDR"
+			(at 281.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/opa1611"
+			(at 281.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad241334-c2f0-4999-b685-87e25c3625d1")
+		)
+		(pin "5"
+			(uuid "cfa11dc3-e09d-4fb7-a8db-70d07a5021da")
+		)
+		(pin "8"
+			(uuid "deed421c-b804-4e3d-93e3-c611b1acf544")
+		)
+		(pin "3"
+			(uuid "6c8b2c20-1a10-4006-9d2c-3e55373c67f3")
+		)
+		(pin "6"
+			(uuid "84faea5a-11b8-4b4d-aae6-140de1f84c4b")
+		)
+		(pin "7"
+			(uuid "969ef4fd-179b-4cf1-92b2-7ac0dcc172e2")
+		)
+		(pin "2"
+			(uuid "8f6584bf-7860-47ef-a20d-fd8ece8e072e")
+		)
+		(pin "4"
+			(uuid "9200f429-7a3f-421d-bbc5-aeb3d865666d")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -17333,7 +17984,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 111.76 0)
+		(at 271.78 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17342,7 +17993,7 @@
 		(fields_autoplaced yes)
 		(uuid "69bead23-cd7b-4c6f-860a-b72e9d2dbe7c")
 		(property "Reference" "#PWR04"
-			(at 265.43 118.11 0)
+			(at 271.78 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17351,7 +18002,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 116.84 0)
+			(at 271.78 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17359,7 +18010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 111.76 0)
+			(at 271.78 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17368,7 +18019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 111.76 0)
+			(at 271.78 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17377,7 +18028,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 111.76 0)
+			(at 271.78 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17423,7 +18074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 500.38 240.9952 0)
 			(effects
 				(font
@@ -17561,7 +18212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 463.8548 195.58 0)
 			(effects
 				(font
@@ -17901,7 +18552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 463.8548 133.35 0)
 			(effects
 				(font
@@ -18246,7 +18897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 500.38 116.5352 0)
 			(effects
 				(font
@@ -18536,7 +19187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 451.1548 71.12 0)
 			(effects
 				(font
@@ -19202,7 +19853,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phased_Array_Microphonics:NE5532DR"
 			(at 496.57 66.04 0)
 			(effects
 				(font
@@ -19420,7 +20071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0005A_N"
+		(property "Footprint" "Phased_Array_Microphonics:TPS60400DBVR"
 			(at 238.76 215.9 0)
 			(effects
 				(font
@@ -19468,92 +20119,6 @@
 			(project ""
 				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2"
 					(reference "U17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Phased_Array_Microphonics:OPA486")
-		(at 306.07 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f297d32-293b-44dc-912d-53839463f19e")
-		(property "Reference" "U16"
-			(at 306.07 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA486"
-			(at 306.07 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 306.07 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2486.pdf?ts=1773082020607&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA2486"
-			(at 306.07 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Precision op-amp"
-			(at 306.07 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "6e09357e-ace5-43f2-ae53-aa18e4b6f2a3")
-		)
-		(pin "7"
-			(uuid "446c27b5-4692-4cdc-88bb-838e39433d31")
-		)
-		(pin "1"
-			(uuid "8bbc719b-0fae-40c4-b40b-772c6100fd5f")
-		)
-		(pin "2"
-			(uuid "1bcd033e-1f43-4667-86ea-867bce58f1b9")
-		)
-		(pin "3"
-			(uuid "e3003e2e-531b-4c39-b40b-6fb02f3b2daf")
-		)
-		(pin "5"
-			(uuid "cb6ff88b-21bd-4f3d-aad2-2ba0d2011141")
-		)
-		(pin "4"
-			(uuid "068066b7-6863-44b1-ac68-1c5f3788c97d")
-		)
-		(pin "8"
-			(uuid "0d48424b-c49e-471c-9fb7-6a248d9e8977")
-		)
-		(instances
-			(project ""
-				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2"
-					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -19653,7 +20218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 426.72 67.6148 0)
 			(effects
 				(font
@@ -20258,7 +20823,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.04 105.1052 0)
 			(effects
 				(font
@@ -20295,92 +20860,6 @@
 			(project "Motherboard"
 				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Phased_Array_Microphonics:OPA1611")
-		(at 281.94 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a872128e-2eac-4a23-8d6b-10b989f34c34")
-		(property "Reference" "U1"
-			(at 281.94 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1611"
-			(at 281.94 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1611.pdf?ts=1773113041969&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA1611"
-			(at 281.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Precision op-amp"
-			(at 281.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "bd5ac9c4-e0b6-49ac-a8eb-c3c0165f858b")
-		)
-		(pin "1"
-			(uuid "695234e0-82a7-4947-874b-8d291890066c")
-		)
-		(pin "4"
-			(uuid "8a7093d1-642b-4b10-b58d-54419d593816")
-		)
-		(pin "8"
-			(uuid "c285292f-eb6d-4b74-958e-bb7ed13f26d7")
-		)
-		(pin "3"
-			(uuid "c503c747-4e72-4713-840e-df6b6b5bf804")
-		)
-		(pin "2"
-			(uuid "36d3d8d5-1b20-4802-9bdf-0b6d3baf02f9")
-		)
-		(pin "6"
-			(uuid "1ca591fc-1d95-4e92-bfdc-dbcd44e676d1")
-		)
-		(pin "5"
-			(uuid "86bbfe0e-16f6-4641-99b1-c964da7110e3")
-		)
-		(instances
-			(project ""
-				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -20746,7 +21225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 500.38 54.3052 0)
 			(effects
 				(font
@@ -21237,7 +21716,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phased_Array_Microphonics:LTST-C170GKT"
 			(at 175.26 173.99 0)
 			(effects
 				(font
@@ -21786,7 +22265,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.04 117.8052 0)
 			(effects
 				(font
@@ -22584,7 +23063,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 463.8548 71.12 0)
 			(effects
 				(font
@@ -22654,7 +23133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 438.4548 71.12 0)
 			(effects
 				(font
@@ -22856,7 +23335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.04 157.1752 0)
 			(effects
 				(font
@@ -23064,7 +23543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 451.1548 133.35 0)
 			(effects
 				(font
@@ -23568,7 +24047,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 500.38 178.7652 0)
 			(effects
 				(font
@@ -23843,7 +24322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 426.72 254.3048 0)
 			(effects
 				(font
@@ -23911,7 +24390,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 426.72 192.0748 0)
 			(effects
 				(font
@@ -23981,7 +24460,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 438.4548 195.58 0)
 			(effects
 				(font
@@ -24383,7 +24862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TEL_15-1223N-HS:CONV_TEL_15-1223N-HS"
+		(property "Footprint" "Phased_Array_Microphonics:TEL_15-1223N-HS"
 			(at 295.91 274.32 0)
 			(effects
 				(font
@@ -25013,7 +25492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phased_Array_Microphonics:NE5532DR"
 			(at 496.57 128.27 0)
 			(effects
 				(font

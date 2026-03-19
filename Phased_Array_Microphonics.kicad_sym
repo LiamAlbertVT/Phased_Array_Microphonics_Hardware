@@ -1306,27 +1306,50 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "OPA486"
+	(symbol "OPA1611AIDR"
+		(pin_names
+			(offset 0.254)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "OPA1611AIDR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "D0008A_N"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "OPA486"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/opa1611"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1335,7 +1358,15 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2486.pdf?ts=1773082020607&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA2486"
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "OPA1611AIDR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1344,7 +1375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Precision op-amp"
+		(property "ki_fp_filters" "D0008A_N D0008A_M D0008A_L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1353,40 +1384,191 @@
 				(hide yes)
 			)
 		)
-		(symbol "OPA486_1_1"
-			(rectangle
-				(start -6.35 7.62)
-				(end 6.35 -8.89)
+		(symbol "OPA1611AIDR_1_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy -5.08 -5.08)
+				)
 				(stroke
-					(width 0)
+					(width 0.2032)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(pin no_connect line
-				(at -8.89 5.08 0)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy 0 2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin input line
-				(at -8.89 1.27 0)
-				(length 2.54)
-				(name "-IN"
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "IN-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1402,9 +1584,9 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -2.54 0)
-				(length 2.54)
-				(name "+IN"
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "IN+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1420,44 +1602,8 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -6.35 0)
-				(length 2.54)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 8.89 5.08 180)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 8.89 1.27 180)
-				(length 2.54)
+				(at 0 10.16 270)
+				(length 5.08)
 				(name "V+"
 					(effects
 						(font
@@ -1473,9 +1619,27 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
-				(at 8.89 -2.54 180)
-				(length 2.54)
+				(at 10.16 0 180)
+				(length 5.08)
 				(name "OUT"
 					(effects
 						(font
@@ -1491,9 +1655,77 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 8.89 -6.35 180)
-				(length 2.54)
+		)
+		(symbol "OPA1611AIDR_2_1"
+			(polyline
+				(pts
+					(xy -7.62 7.62) (xy -7.62 -7.62)
+				)
+				(stroke
+					(width 0.1016)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -7.62) (xy 7.62 -7.62)
+				)
+				(stroke
+					(width 0.1016)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 7.62) (xy -7.62 7.62)
+				)
+				(stroke
+					(width 0.1016)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -7.62) (xy 7.62 7.62)
+				)
+				(stroke
+					(width 0.1016)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 2.54 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 0 180)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -1502,6 +1734,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -2.54 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1754,7 +2004,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TEL_15-1223N-HS:CONV_TEL_15-1223N-HS"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2363,51 +2613,5 @@
 			)
 		)
 		(embedded_fonts no)
-	)
-	(symbol "OPA1611"
-		(extends "OPA486")
-		(property "Reference" "U"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1611"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1611.pdf?ts=1773113041969&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA1611"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Precision op-amp"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 )
