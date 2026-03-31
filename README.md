@@ -1,20 +1,21 @@
 ## Recent Updates
-- Updated schematic with optimized op amps and buck converter components.
-- Revised parts list to reflect these changes.
-- Added footprints for all components.
-- Generated PCB without traces.
-  - There were warnings and errors. See *Motherboard* &rarr; *PCB_UPDATE_REPORT* (listed at the bottom).
-  - I'm pushing to make these changes available to the cloud, but I will to determine how catastrophic the errors are before making significant trace designs.
+- Slightly modified schematic.
+  - Incorporated all stages of dual op-amps.
+  - Replaced VT_BIAS op-amp buffer with capacitor in accordance with the SSI2100 datasheet.
+  - Adjusted symbol graphics.
+- Resolved all footprint errors (all components now have matching footprints).
+- Reflected changes in the parts list.
 
 ## TODO (Upcoming Commits)
-- Rectify pad errors when generating PCB.
 - Draw PCB traces.
-  - Will likely use a four-layer board for ease of design. If I can work with two, we'll do it to save on cost.
-- Revise schematic upon review (likely necessary--this is my first major PCB design).
+- Simulate passive blocks and those without ICs to verify intended behavior.
+- Produce documentation to indicate:
+  - Future plans & needs.
+  - **Detailed** overview of the schematic.
+    - It isn't crucial to overview the PCB, as it is simply a physical representation of the schematic.
+    - I will likely provide a small section on it for debugging purposes.
 
 ## Future Plans
 - Enable communication with Raspberry Pi Pico.
   - Will eventually add embedded directory to this repo with sample code.
-- Produce documentation to provide insight into the design.
-  - I will not discuss design revisions... I will only discuss the final version that I produce this semester.
-  - I will primarily discuss the schematic because the PCB only concerns routing.
+- Revise schematic upon review (likely necessary--this is my first major PCB design).
