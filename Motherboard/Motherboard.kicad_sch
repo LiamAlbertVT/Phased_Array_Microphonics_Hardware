@@ -6160,10 +6160,6 @@
 		(uuid "fd1a8ff1-5560-4803-9796-deeb8640ae23")
 	)
 	(no_connect
-		(at 256.54 149.86)
-		(uuid "4335f60c-9ef1-4799-86bf-ebc31a353715")
-	)
-	(no_connect
 		(at 327.66 147.32)
 		(uuid "c93ded4b-6035-4147-a55e-882fd41dee5c")
 	)
@@ -7693,6 +7689,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 137.16) (xy 256.54 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4652a7-b89d-4720-85a8-6d288b646c46")
+	)
+	(wire
+		(pts
 			(xy 374.65 72.39) (xy 386.08 72.39)
 		)
 		(stroke
@@ -8693,16 +8699,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 137.16) (xy 256.54 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "797e829c-f01d-47b5-a9d8-4c7ad14c64d9")
-	)
-	(wire
-		(pts
 			(xy 91.44 46.99) (xy 83.82 46.99)
 		)
 		(stroke
@@ -8733,7 +8729,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 152.4) (xy 254 137.16)
+			(xy 254 152.4) (xy 254 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9330,6 +9326,16 @@
 			(type default)
 		)
 		(uuid "92b87b58-7d1e-4a7b-9beb-05cd30bb1e26")
+	)
+	(wire
+		(pts
+			(xy 254 149.86) (xy 256.54 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b902e2-81e8-4b84-a044-4fb9130a60c4")
 	)
 	(wire
 		(pts
@@ -12887,6 +12893,28 @@
 			)
 		)
 	)
+	(global_label "ADC_ENABLE"
+		(shape input)
+		(at 250.19 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f84e6d30-1788-4d30-9f86-c81fb9e226a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.5934 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CLK_3"
 		(shape input)
 		(at 412.75 181.61 90)
@@ -13487,7 +13515,7 @@
 				)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "220n"
 			(at 69.85 72.39 90)
 			(effects
 				(font
@@ -13999,7 +14027,7 @@
 				)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "220n"
 			(at 69.85 138.43 90)
 			(effects
 				(font
@@ -15550,7 +15578,7 @@
 				)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "220n"
 			(at 69.85 177.8 90)
 			(effects
 				(font
@@ -16238,7 +16266,7 @@
 				)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "220n"
 			(at 69.85 59.69 90)
 			(effects
 				(font
@@ -16306,7 +16334,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 209.55 69.85 90)
 			(effects
 				(font
@@ -16374,7 +16402,7 @@
 				)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "220n"
 			(at 69.85 190.5 90)
 			(effects
 				(font
@@ -17626,7 +17654,7 @@
 				)
 			)
 		)
-		(property "Value" "16"
+		(property "Value" "3"
 			(at 106.68 156.21 90)
 			(effects
 				(font
@@ -18951,7 +18979,7 @@
 				)
 			)
 		)
-		(property "Value" "16"
+		(property "Value" "3"
 			(at 106.68 38.1 90)
 			(effects
 				(font
@@ -20509,7 +20537,7 @@
 				)
 			)
 		)
-		(property "Value" "16"
+		(property "Value" "3"
 			(at 106.68 77.47 90)
 			(effects
 				(font
@@ -20645,7 +20673,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 209.55 96.52 90)
 			(effects
 				(font
@@ -21183,7 +21211,7 @@
 				)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "220n"
 			(at 69.85 99.06 90)
 			(effects
 				(font
@@ -22580,7 +22608,7 @@
 				)
 			)
 		)
-		(property "Value" "16"
+		(property "Value" "3"
 			(at 106.68 116.84 90)
 			(effects
 				(font
@@ -22648,7 +22676,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 209.55 43.18 90)
 			(effects
 				(font
@@ -22716,7 +22744,7 @@
 				)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "220n"
 			(at 69.85 111.76 90)
 			(effects
 				(font
@@ -23786,7 +23814,7 @@
 				)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "220n"
 			(at 69.85 151.13 90)
 			(effects
 				(font
@@ -24362,7 +24390,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 209.55 123.19 90)
 			(effects
 				(font
@@ -24705,7 +24733,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "11.5k"
 			(at 281.94 77.47 90)
 			(effects
 				(font
