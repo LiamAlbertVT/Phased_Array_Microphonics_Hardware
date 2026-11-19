@@ -1,0 +1,3613 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9efa120a-eaa8-51cb-90aa-be038de4d072")
+	(paper "A3")
+	(title_block(title "ADC conditioning and local bypass")(rev "Hardware review"))
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(embedded_fonts no)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f90e5589-2450-5f52-8d87-395edc982497")
+		(property "Reference" "R99"
+			(at 44.45 30.23 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "1.82k"
+			(at 44.45 32.51 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 44.45 35.56 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f32a37a7-48b0-5c42-9bb4-9dd294ce7692")
+		)
+		(pin "2"
+			(uuid "4a79c1c3-0f3e-539f-97b8-77e7b723a39b")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fccc863-92c7-57a3-8b84-a84d1c4291c8")
+		(property "Reference" "R100"
+			(at 91.44 30.23 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "3.24k"
+			(at 91.44 32.51 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 91.44 35.56 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a33b83f-60db-59c2-aa1a-bf3986b9e041")
+		)
+		(pin "2"
+			(uuid "8d89c7d3-2ebe-561c-91cd-3df84ca85948")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "R100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 40.64 35.56)
+			(xy 39.37 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf33c28-ad46-5c5b-828b-fd1edac0ce45")
+	)
+	(global_label "+5V"
+		(shape bidirectional)
+		(at 39.37 35.56 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "cbd19dc6-74c0-5b88-90a5-d3234e36041b")
+	)
+	(wire
+		(pts
+			(xy 48.26 35.56)
+			(xy 49.53 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1213c495-b1b0-57bb-9b9b-3dea8add139d")
+	)
+	(global_label "BBD_BIAS_3V2"
+		(shape bidirectional)
+		(at 49.53 35.56 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "47342010-17f1-5261-a14c-82781792be06")
+	)
+	(wire
+		(pts
+			(xy 87.63 35.56)
+			(xy 86.36 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064c523d-6ca0-5dd7-b9d4-913b57e8ff63")
+	)
+	(global_label "BBD_BIAS_3V2"
+		(shape bidirectional)
+		(at 86.36 35.56 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "d3280c92-3517-5a83-873d-ef3d3f60df85")
+	)
+	(wire
+		(pts
+			(xy 95.25 35.56)
+			(xy 96.52 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8346f5-b80f-50a9-a858-5992ad7b01a4")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 96.52 35.56 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "57ad6977-7821-5215-b051-be4d3c032f0f")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.38 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4be37372-0b1a-5988-9d13-e9de2df22e7a")
+		(property "Reference" "C68"
+			(at 119.38 30.23 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 119.38 32.51 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 119.38 35.56 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd4a66c0-d5c4-53d1-be2b-19b5bc580374")
+		)
+		(pin "2"
+			(uuid "3e24956e-8f80-5851-a979-8717949a1297")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 115.57 35.56)
+			(xy 114.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5724d2af-8e4c-5a51-b3b1-b742b384931e")
+	)
+	(global_label "BBD_BIAS_3V2"
+		(shape bidirectional)
+		(at 114.3 35.56 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "d8472463-0a2d-53cf-b286-bd804489829e")
+	)
+	(wire
+		(pts
+			(xy 123.19 35.56)
+			(xy 124.46 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae80726-7d20-54e8-850a-ccb4463dbc62")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 124.46 35.56 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "21fa509b-e6c4-5b7d-80a6-09fb0175449a")
+	)
+	(text "Delay signal bias  /  3.20 V nominal"
+		(exclude_from_sim no)
+		(at 20.32 21.59 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "61720bae-453a-5a29-b897-c8aab830569c")
+	)
+	(text "Beamformed signal"
+		(exclude_from_sim no)
+		(at 20.32 62.23 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left bottom)
+		)
+		(uuid "1229e93d-31f4-5ee3-ab2d-7101c47094ba")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b92d47a-919a-5d37-9897-3f4a9f1f0f5f")
+		(property "Reference" "C69"
+			(at 60.96 67.06 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "4.7u 25V"
+			(at 60.96 69.34 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 60.96 72.39 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f62ddc4-2762-5a3f-8938-c509cf705d43")
+		)
+		(pin "2"
+			(uuid "cc725f14-f978-5e3d-8c66-8fc06b50be6d")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba81b68e-5768-5503-9441-56b05c90e635")
+		(property "Reference" "R101"
+			(at 86.36 67.06 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "2.80k"
+			(at 86.36 69.34 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 86.36 72.39 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "515c3a5a-7b8b-5aa2-85d7-e217a9990eb0")
+		)
+		(pin "2"
+			(uuid "82e18cb0-a0fd-55bb-b63b-b0823ab4f016")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "OPTIMIZED_OUT"
+		(shape bidirectional)
+		(at 48.26 72.39 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "b725c541-e54b-53d1-832c-4fa76a4ecb0b")
+	)
+	(wire
+		(pts
+			(xy 48.26 72.39)
+			(xy 57.15 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a921f925-7ef3-59f3-a4e0-94d7296cac1a")
+	)
+	(wire
+		(pts
+			(xy 64.77 72.39)
+			(xy 82.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c0cf72-e222-5cb3-ba22-38c8f581d67c")
+	)
+	(wire
+		(pts
+			(xy 90.17 72.39)
+			(xy 102.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdd0a79-598c-5d9a-be23-19bcd0584492")
+	)
+	(global_label "ADC_CH0"
+		(shape bidirectional)
+		(at 102.87 72.39 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "9e4fa9a2-b917-52d1-8129-2ba9f71f4c1b")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58e59790-1c8e-59d8-952b-47e538526599")
+		(property "Reference" "R102"
+			(at 151.13 67.06 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "2.00k"
+			(at 151.13 69.34 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 72.39 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bce52e1-4e24-57a9-8baa-93f367a0f3ab")
+		)
+		(pin "2"
+			(uuid "657a6481-7416-5dcb-9940-dd51afc93121")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39)
+			(xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2048ef-5afd-5c71-a4ff-d95fccbd65d4")
+	)
+	(global_label "+3.3V"
+		(shape bidirectional)
+		(at 146.05 72.39 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "149e811c-5332-51f8-92fd-875a628ed127")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39)
+			(xy 156.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d78ccc3-aceb-5792-bc8a-3e541c15f9b4")
+	)
+	(global_label "ADC_CH0"
+		(shape bidirectional)
+		(at 156.21 72.39 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "3f20027f-b70f-501c-a111-233b77485caf")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db4c6c0d-4671-5807-a685-4d4d22daaa98")
+		(property "Reference" "R103"
+			(at 199.39 67.06 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "2.00k"
+			(at 199.39 69.34 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 199.39 72.39 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8c57e0b-fa08-55dc-878b-7a3066af84b0")
+		)
+		(pin "2"
+			(uuid "aa49280e-d54d-5013-8cd2-33d394a6985a")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 195.58 72.39)
+			(xy 194.31 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20a9c00-f973-5bdc-b689-2efd60307bd9")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 194.31 72.39 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "55eb23d6-5585-50f6-851c-af441b2826be")
+	)
+	(wire
+		(pts
+			(xy 203.2 72.39)
+			(xy 204.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0bd4ea-b9ca-561d-8159-217e17723515")
+	)
+	(global_label "ADC_CH0"
+		(shape bidirectional)
+		(at 204.47 72.39 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "955d1bd3-f8f1-5951-9473-872b3c0a52a7")
+	)
+	(text "Single-microphone signal"
+		(exclude_from_sim no)
+		(at 20.32 92.71 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left bottom)
+		)
+		(uuid "a721917b-810a-5220-829a-4bddd4126849")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cec3dff2-b900-5c03-922c-3904e7e3c68d")
+		(property "Reference" "C70"
+			(at 60.96 97.54 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "4.7u 25V"
+			(at 60.96 99.82 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 60.96 102.87 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c2c932b-d8cc-5801-9620-abe0998275b9")
+		)
+		(pin "2"
+			(uuid "48598335-175a-5551-8288-9e7c90aae817")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cce3113-5612-5661-a54e-d5ab4104ea6e")
+		(property "Reference" "R104"
+			(at 86.36 97.54 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10.0k"
+			(at 86.36 99.82 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 86.36 102.87 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70eabaf4-e24a-5598-ab2b-fdfc65b8170b")
+		)
+		(pin "2"
+			(uuid "63f8b139-ab5f-564d-b442-e69a8e9aec40")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "R104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "UNOPTIMIZED_OUT"
+		(shape bidirectional)
+		(at 48.26 102.87 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "2d2c52b8-9cc6-5907-addc-8004f6f8ae67")
+	)
+	(wire
+		(pts
+			(xy 48.26 102.87)
+			(xy 57.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a922469d-1e67-5006-9585-0e1d33a9ae3f")
+	)
+	(wire
+		(pts
+			(xy 64.77 102.87)
+			(xy 82.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8c910e-d2d4-532e-a72e-61492bd739b2")
+	)
+	(wire
+		(pts
+			(xy 90.17 102.87)
+			(xy 102.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08e96f1-e151-50e0-b89a-743d42a0b21a")
+	)
+	(global_label "ADC_CH1"
+		(shape bidirectional)
+		(at 102.87 102.87 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "40757e6e-a96a-58bc-a59f-bb7e84b8713b")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d7ed8bc-c87f-54d1-b32a-a76eee3903a9")
+		(property "Reference" "R105"
+			(at 151.13 97.54 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "2.00k"
+			(at 151.13 99.82 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 102.87 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6df13c86-df50-51e9-b7a5-356c5a684b8c")
+		)
+		(pin "2"
+			(uuid "8c64f50a-08e6-5ff0-a1f9-30aec757ccbe")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 147.32 102.87)
+			(xy 146.05 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eaebaeb-6808-5662-ba09-0eef766b6eba")
+	)
+	(global_label "+3.3V"
+		(shape bidirectional)
+		(at 146.05 102.87 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "6df9c861-469e-572f-93ef-f0fd58636064")
+	)
+	(wire
+		(pts
+			(xy 154.94 102.87)
+			(xy 156.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f546b52-3d6c-5984-98c5-f2b80afa5aab")
+	)
+	(global_label "ADC_CH1"
+		(shape bidirectional)
+		(at 156.21 102.87 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "f7cd320d-6968-5d49-b1d9-4e8f4e69f6ef")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e32f2c7-3bf1-5dab-9c63-9b3672dc532f")
+		(property "Reference" "R106"
+			(at 199.39 97.54 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "2.00k"
+			(at 199.39 99.82 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 199.39 102.87 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c27cf02e-eb9f-55a2-b755-82f4e0fba6d8")
+		)
+		(pin "2"
+			(uuid "da5097a8-aef6-509e-93fa-6d1838d973bd")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "R106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 195.58 102.87)
+			(xy 194.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ecfc462-aa5d-5489-8890-f7179fa65f24")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 194.31 102.87 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "87565ebc-32d6-501c-b9cc-4715213c9649")
+	)
+	(wire
+		(pts
+			(xy 203.2 102.87)
+			(xy 204.47 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5752516-c5f3-516d-b2b8-04d780f9bbf7")
+	)
+	(global_label "ADC_CH1"
+		(shape bidirectional)
+		(at 204.47 102.87 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "4108b4d9-2f03-59ea-855f-b539c40b2fbe")
+	)
+	(text "U14"
+		(exclude_from_sim no)
+		(at 21.59 142.24 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "4781ac90-7a2d-5614-a60d-af271dacf359")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9485d5c6-e95c-58bf-ae7a-ee4927d5527e")
+		(property "Reference" "C71"
+			(at 33.02 145.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 33.02 148.08 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 33.02 151.13 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f656114-ab4c-5daa-862e-7e69a541468d")
+		)
+		(pin "2"
+			(uuid "cc13654b-15fc-52c6-bd1a-414b7d23ca90")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 29.21 151.13)
+			(xy 26.67 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f1c6d0-17e1-5bf0-99ff-b707622f1eff")
+	)
+	(global_label "+15V"
+		(shape bidirectional)
+		(at 26.67 151.13 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "5df9d9c5-b2d7-5753-bcfe-c4631ed4f8a2")
+	)
+	(wire
+		(pts
+			(xy 36.83 151.13)
+			(xy 39.37 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3b58a8-6f7b-5cb2-992d-fdca9c1e4a9f")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 39.37 151.13 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "95c32153-60df-5227-962a-bdf5374c9e5e")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f4cb71d-4986-5b86-ad9b-7a40dfb4e3f2")
+		(property "Reference" "C72"
+			(at 33.02 158.5 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 33.02 160.78 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 33.02 163.83 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1676e0a-f8f6-5cad-b6a4-a027526a0d66")
+		)
+		(pin "2"
+			(uuid "c866c850-8366-5687-9f84-7d36598c9e20")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 29.21 163.83)
+			(xy 26.67 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5f28c9-c58a-5da4-bfaa-6d418b63a3c8")
+	)
+	(global_label "-15V"
+		(shape bidirectional)
+		(at 26.67 163.83 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "903e8436-da1e-5b19-95fb-b1a816328b1c")
+	)
+	(wire
+		(pts
+			(xy 36.83 163.83)
+			(xy 39.37 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafeceb9-124b-5543-b7f2-38c68b7ee505")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 39.37 163.83 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "f6c723ca-5f33-5445-b28f-21ad9482fe44")
+	)
+	(text "U13"
+		(exclude_from_sim no)
+		(at 95.25 142.24 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "be23e67d-8de0-5ceb-a365-25282c41c019")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "495ec8e3-d171-5d36-bf12-b8d7cbe6c08e")
+		(property "Reference" "C73"
+			(at 106.68 145.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 106.68 148.08 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 106.68 151.13 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a73bad8-fa97-5c26-b1e2-191b77fb36f3")
+		)
+		(pin "2"
+			(uuid "bc8c9009-2f65-5625-bf68-48cdfd97e8d0")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 102.87 151.13)
+			(xy 100.33 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c9a7c7-abfd-5569-a23c-41505311944a")
+	)
+	(global_label "+15V"
+		(shape bidirectional)
+		(at 100.33 151.13 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "0d02f7ce-1163-5461-a703-9f4fb850f651")
+	)
+	(wire
+		(pts
+			(xy 110.49 151.13)
+			(xy 113.03 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c0254f-3276-5c19-bc14-99f937b3c0f8")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 113.03 151.13 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "7aa972c1-1b22-5a30-a24d-9a3cce97747d")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f8805e3-986d-574a-9892-91ffd9a3c53a")
+		(property "Reference" "C74"
+			(at 106.68 158.5 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 106.68 160.78 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 106.68 163.83 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70e93b95-2f0b-5094-b9a9-32e42b4555e6")
+		)
+		(pin "2"
+			(uuid "68a40d23-6699-5369-a110-b92e1ae1757d")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 102.87 163.83)
+			(xy 100.33 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54dea1e2-241d-5d3d-82a6-2d9b348a0052")
+	)
+	(global_label "-15V"
+		(shape bidirectional)
+		(at 100.33 163.83 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "0647c668-b108-52fa-94e1-9c69a060c743")
+	)
+	(wire
+		(pts
+			(xy 110.49 163.83)
+			(xy 113.03 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95eac3bd-2f05-54ec-8f0f-1cfbf5f67ada")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 113.03 163.83 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "b7dd2d0e-52e8-5cfb-8bc8-75199c9af37c")
+	)
+	(text "U12"
+		(exclude_from_sim no)
+		(at 168.91 142.24 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "da9369a7-af94-57a2-a88e-1ebfcbb11122")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a74cc611-708a-5d06-adc7-0c7d5d4399c4")
+		(property "Reference" "C75"
+			(at 180.34 145.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 180.34 148.08 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.34 151.13 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "762aeae1-9ca5-5ca6-a0f5-0be2f5806945")
+		)
+		(pin "2"
+			(uuid "7491d0dc-505a-545f-b265-4174127f0a13")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 176.53 151.13)
+			(xy 173.99 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3f1c07-d0b3-59f6-a15b-0e98e7167180")
+	)
+	(global_label "+15V"
+		(shape bidirectional)
+		(at 173.99 151.13 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "694fbe46-fe94-5fcf-ac4f-1c30a53ecc54")
+	)
+	(wire
+		(pts
+			(xy 184.15 151.13)
+			(xy 186.69 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c08f17b-5956-59e9-96c0-e3fd1f4e8474")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 186.69 151.13 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "58ec3ff3-f905-5bb3-b69a-1b8157203af6")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8f3008a-0405-50d5-a7c8-43aa5393c6d8")
+		(property "Reference" "C76"
+			(at 180.34 158.5 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 180.34 160.78 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.34 163.83 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8252a7fb-1f2a-5d6f-84f3-b65c1c9a72cc")
+		)
+		(pin "2"
+			(uuid "c76cfc81-9cd3-5412-9746-e49f1a3210ae")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 176.53 163.83)
+			(xy 173.99 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57257705-a12c-5d56-9d37-428a7e5d8908")
+	)
+	(global_label "-15V"
+		(shape bidirectional)
+		(at 173.99 163.83 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "ff07ff97-d220-5fd1-8f26-ec085cd2584c")
+	)
+	(wire
+		(pts
+			(xy 184.15 163.83)
+			(xy 186.69 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "045e453f-3231-57ee-ac91-6c55d5c2b7ae")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 186.69 163.83 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "0787aa32-5255-52da-8a75-b8f510b4953a")
+	)
+	(text "U3"
+		(exclude_from_sim no)
+		(at 242.57 142.24 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c3f7625-0dcf-5192-a873-b300db807ae9")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 254 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b2f714e-b6af-53dc-99a1-838bf79a1ff0")
+		(property "Reference" "C77"
+			(at 254 145.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 254 148.08 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 254 151.13 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bc4c14a-ad15-5283-94fd-a9679f510382")
+		)
+		(pin "2"
+			(uuid "0fbf0a30-15cf-5896-b372-355d2c7d2e1e")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 250.19 151.13)
+			(xy 247.65 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7197c6ff-7d78-565c-9de9-29f65350395c")
+	)
+	(global_label "+15V"
+		(shape bidirectional)
+		(at 247.65 151.13 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "e66261d8-0946-5d41-8b32-0ec4b24bb3b5")
+	)
+	(wire
+		(pts
+			(xy 257.81 151.13)
+			(xy 260.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4210b1ee-b034-5560-a867-867262ef96a3")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 260.35 151.13 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "64b5f594-4353-5642-bed3-5d005cc51e92")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 254 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c8ca958-f8af-5900-9181-b517e23cab4d")
+		(property "Reference" "C78"
+			(at 254 158.5 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 254 160.78 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 254 163.83 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e38ed70b-89c8-5e64-97d1-763e54f1921f")
+		)
+		(pin "2"
+			(uuid "60461557-f142-53d0-935d-60e499ba28ab")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 250.19 163.83)
+			(xy 247.65 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c369e2-2d87-5488-9d1a-f91ca855af2a")
+	)
+	(global_label "-15V"
+		(shape bidirectional)
+		(at 247.65 163.83 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "9b4c90a9-5c99-551c-9e39-83ee56512f62")
+	)
+	(wire
+		(pts
+			(xy 257.81 163.83)
+			(xy 260.35 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1984ca95-326c-530e-8126-2c4f77d4b730")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 260.35 163.83 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "a8463959-d418-5048-a553-f9b4840a603d")
+	)
+	(text "U5"
+		(exclude_from_sim no)
+		(at 316.23 142.24 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ff53406-0f2a-5434-a201-a10c9e8e84af")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 327.66 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3094a98-04db-5639-9225-61c5ee08087e")
+		(property "Reference" "C79"
+			(at 327.66 145.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 327.66 148.08 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 327.66 151.13 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6643e891-c649-59f8-b981-1b68117cdd6d")
+		)
+		(pin "2"
+			(uuid "bfa4f68d-e713-5bd4-8194-016012c09196")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 323.85 151.13)
+			(xy 321.31 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2b6227-a931-551e-9a5c-4096ef113f14")
+	)
+	(global_label "+15V"
+		(shape bidirectional)
+		(at 321.31 151.13 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "3c266444-7909-52bb-a36e-086b079ab830")
+	)
+	(wire
+		(pts
+			(xy 331.47 151.13)
+			(xy 334.01 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5794d76a-2c59-5892-bf28-4115710e174f")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 334.01 151.13 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "0c85d8f0-f2f0-5c6b-8b8b-8df75101367a")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 327.66 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54e1563f-b399-5533-b458-a505d96c5460")
+		(property "Reference" "C80"
+			(at 327.66 158.5 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 327.66 160.78 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 327.66 163.83 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bdb652d-2787-5ea8-b93c-2c855d8e760b")
+		)
+		(pin "2"
+			(uuid "b2229b6a-ff79-5698-8195-261534557f6d")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 323.85 163.83)
+			(xy 321.31 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e99518d-c967-5361-a28c-815819fd203e")
+	)
+	(global_label "-15V"
+		(shape bidirectional)
+		(at 321.31 163.83 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "83b688df-7c5e-58c6-9f72-a5e355d16dd6")
+	)
+	(wire
+		(pts
+			(xy 331.47 163.83)
+			(xy 334.01 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2dfc37-e649-5010-8c43-5dbdb580e273")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 334.01 163.83 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "de57bb25-2559-5ad5-a6ba-5bb34160bd61")
+	)
+	(text "U8"
+		(exclude_from_sim no)
+		(at 21.59 187.96 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f32d376-5881-5d99-bcb7-3c75720c4a86")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 196.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0299a1a6-fa5a-5bde-be78-243369deda1a")
+		(property "Reference" "C81"
+			(at 33.02 191.52 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 33.02 193.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 33.02 196.85 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83ef1f51-26a9-5bc3-a272-9842da3909e2")
+		)
+		(pin "2"
+			(uuid "46d4bd0f-3bb6-593b-bbde-0efdd5e049b2")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 29.21 196.85)
+			(xy 26.67 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1f6407-a4a4-5a21-a1a3-38f01aadfc5f")
+	)
+	(global_label "+15V"
+		(shape bidirectional)
+		(at 26.67 196.85 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "2904bd6b-352d-5b68-8c6f-cce40f61cf85")
+	)
+	(wire
+		(pts
+			(xy 36.83 196.85)
+			(xy 39.37 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48128a08-afce-530e-b492-29afae5eedf9")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 39.37 196.85 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "5dbbd294-6a6b-589d-a2d2-96a388c07628")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89eab150-55f2-558c-a198-ae904146f6e4")
+		(property "Reference" "C82"
+			(at 33.02 204.22 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 33.02 206.5 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 33.02 209.55 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ce6ec40-2667-56f4-aa24-4309e533a642")
+		)
+		(pin "2"
+			(uuid "5bbe2454-43d2-53fe-a491-240923844d77")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 29.21 209.55)
+			(xy 26.67 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cce3e6a-6bbd-527e-bdfd-f9b3be6408f7")
+	)
+	(global_label "-15V"
+		(shape bidirectional)
+		(at 26.67 209.55 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "5fb0efda-7b12-5446-85ce-711058cccf91")
+	)
+	(wire
+		(pts
+			(xy 36.83 209.55)
+			(xy 39.37 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8222dbc1-3789-5963-9a15-253c9e9de317")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 39.37 209.55 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "b8a05738-a911-56fe-8cdf-e57e03092dc7")
+	)
+	(text "U9"
+		(exclude_from_sim no)
+		(at 95.25 187.96 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "38ea67cc-327e-5b01-a680-95520a2a64a7")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 196.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e7d8130-58c3-533c-a7e9-2af9ac7adf6e")
+		(property "Reference" "C83"
+			(at 106.68 191.52 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 106.68 193.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 106.68 196.85 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aaf1e9a-315a-53db-b39c-edd56d436539")
+		)
+		(pin "2"
+			(uuid "159415bd-c556-50b9-aaff-e403c2a94e8b")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 102.87 196.85)
+			(xy 100.33 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e740e7-6cbc-5ade-8a98-d8e6e98a0e42")
+	)
+	(global_label "+15V"
+		(shape bidirectional)
+		(at 100.33 196.85 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "ad21a30e-5ad8-5d16-98c8-fb9e5c5e94c1")
+	)
+	(wire
+		(pts
+			(xy 110.49 196.85)
+			(xy 113.03 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ff7cac-12f3-5c5c-9be8-200029da6ec9")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 113.03 196.85 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "3eaf6be8-fdfa-5a3e-afab-04b5b66fc0a4")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9a84098-7973-53a2-af12-895cd39b8e07")
+		(property "Reference" "C84"
+			(at 106.68 204.22 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 106.68 206.5 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 106.68 209.55 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d46dc99-bb2f-5a1c-84d0-d553fc29676e")
+		)
+		(pin "2"
+			(uuid "df71d466-1d1c-5edb-ab11-a256c1f2e535")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 102.87 209.55)
+			(xy 100.33 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7842af59-89d2-5691-8069-dc8f4b927968")
+	)
+	(global_label "-15V"
+		(shape bidirectional)
+		(at 100.33 209.55 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "55a0e895-aa35-577b-a7eb-c4ac4e474639")
+	)
+	(wire
+		(pts
+			(xy 110.49 209.55)
+			(xy 113.03 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f625f43-f2fc-5a51-b46f-0f233a0200e3")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 113.03 209.55 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "4eeb7ed2-bda2-5d42-ac41-a9ca122ffd7e")
+	)
+	(text "U11"
+		(exclude_from_sim no)
+		(at 168.91 187.96 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "af68125f-d382-5177-b725-b966f31bc8d3")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 196.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccb4e17c-ae65-5195-afdc-6271a4824879")
+		(property "Reference" "C85"
+			(at 180.34 191.52 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 180.34 193.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.34 196.85 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd1ef59e-d1d1-5cbe-b6e5-ab41822fdba9")
+		)
+		(pin "2"
+			(uuid "4db7d0b6-e971-5eba-84a3-4122a1f89f99")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 176.53 196.85)
+			(xy 173.99 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2317fca7-7995-5d24-be05-027ae94b9875")
+	)
+	(global_label "+15V"
+		(shape bidirectional)
+		(at 173.99 196.85 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "66d662de-1f6a-5db9-9253-b111acc5582a")
+	)
+	(wire
+		(pts
+			(xy 184.15 196.85)
+			(xy 186.69 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357e1f95-1804-5e0b-a642-aeeef5a90b8a")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 186.69 196.85 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "6e72958e-ee5d-5c7a-a961-5bbfee1f756f")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24dc1b4c-e24b-5564-bc76-a0b402bf21ec")
+		(property "Reference" "C86"
+			(at 180.34 204.22 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 180.34 206.5 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.34 209.55 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c6843f0-cb55-502c-b08b-cc3e9a6d892d")
+		)
+		(pin "2"
+			(uuid "edaf9e59-4f1e-5cbe-8fda-bbcc85419329")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 176.53 209.55)
+			(xy 173.99 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d1d4d7-9905-544f-a951-ab65ec8e42c7")
+	)
+	(global_label "-15V"
+		(shape bidirectional)
+		(at 173.99 209.55 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "f6de5db8-a50d-5e02-b3f7-9e1a929581e3")
+	)
+	(wire
+		(pts
+			(xy 184.15 209.55)
+			(xy 186.69 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3852af87-754d-5e35-9335-91488e61bbc8")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 186.69 209.55 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "33a77dd9-467f-5cf8-9790-568fc04fb197")
+	)
+	(text "U1"
+		(exclude_from_sim no)
+		(at 242.57 187.96 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f20af7f-91ca-5ad3-b5a8-f2374f99f9c9")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 254 196.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54b90604-5db8-503b-a48d-8ef114cfefd0")
+		(property "Reference" "C87"
+			(at 254 191.52 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 254 193.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 254 196.85 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b40ffdc-315a-54b1-b0a4-843e98050c1b")
+		)
+		(pin "2"
+			(uuid "23636550-7828-5ce5-9e87-2a4178ff05f4")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 250.19 196.85)
+			(xy 247.65 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b932aa0-8cb9-5d93-9c9f-7b54cd5d46b5")
+	)
+	(global_label "+5V"
+		(shape bidirectional)
+		(at 247.65 196.85 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "98f1a3e7-3696-5b59-8dc2-324b5f60a941")
+	)
+	(wire
+		(pts
+			(xy 257.81 196.85)
+			(xy 260.35 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18fb314-8a43-5bcf-b8aa-30305375db90")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 260.35 196.85 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "1355ec4d-c5c6-51c1-9971-174e2282565f")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 254 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc329837-3af3-5293-a0fd-9f1d4586fed6")
+		(property "Reference" "C88"
+			(at 254 204.22 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 254 206.5 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 254 209.55 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aef80d5e-6d3d-5467-94b3-cd9c10bfb9a8")
+		)
+		(pin "2"
+			(uuid "a5502f5e-9af6-57f6-870a-8cb921ee385c")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 250.19 209.55)
+			(xy 247.65 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c578a3f4-0cae-5395-9cdd-e66cb5078278")
+	)
+	(global_label "-5V"
+		(shape bidirectional)
+		(at 247.65 209.55 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "b3a90c05-0c0a-50aa-90a9-a4090d9e4110")
+	)
+	(wire
+		(pts
+			(xy 257.81 209.55)
+			(xy 260.35 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45184c7-05cf-5c7a-8560-ff6d967a7161")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 260.35 209.55 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "829da542-2fe9-5beb-9ca4-f02b1bfe3726")
+	)
+	(text "U2"
+		(exclude_from_sim no)
+		(at 316.23 187.96 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "e95054ca-40b0-518e-9a8e-cbbc8e0a1bde")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 327.66 196.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0abf46ee-b59a-5e33-8789-286e60ca37f0")
+		(property "Reference" "C89"
+			(at 327.66 191.52 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 327.66 193.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 327.66 196.85 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af90ea26-4f96-551d-b927-afe1a980a3be")
+		)
+		(pin "2"
+			(uuid "0b8f0546-26cc-523b-8ec5-e2b2b5d610d1")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 323.85 196.85)
+			(xy 321.31 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7ff7c6-5401-5f8c-b0fa-5d2cc46f7d64")
+	)
+	(global_label "+3.3V"
+		(shape bidirectional)
+		(at 321.31 196.85 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "b6243e01-9a5b-5e55-8e24-9e9c3201c343")
+	)
+	(wire
+		(pts
+			(xy 331.47 196.85)
+			(xy 334.01 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5195ef7e-8d47-5308-a536-12d459a7cc74")
+	)
+	(global_label "GNDA"
+		(shape bidirectional)
+		(at 334.01 196.85 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "81e61715-047d-52ed-b2f9-0d895b4d7aa2")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 327.66 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2272ab2b-5cca-5f28-a7cb-4cd8f9a5ac35")
+		(property "Reference" "C90"
+			(at 327.66 204.22 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 327.66 206.5 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 327.66 209.55 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a421aac8-f129-5ccf-a325-aeca991f2fad")
+		)
+		(pin "2"
+			(uuid "b26435b5-8cdf-5080-bd2c-1f29c1fcdc0c")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "C90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 323.85 209.55)
+			(xy 321.31 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36097b5c-351f-5d2c-ac09-8519408ed0d5")
+	)
+	(global_label "+3.3V"
+		(shape bidirectional)
+		(at 321.31 209.55 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify right)
+		)
+		(uuid "0599164c-a0b5-58ed-bf9d-00bd947e02e9")
+	)
+	(wire
+		(pts
+			(xy 331.47 209.55)
+			(xy 334.01 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5533cc56-bdd0-504c-acdb-b2be0531f533")
+	)
+	(global_label "GNDA"
+		(shape bidirectional)
+		(at 334.01 209.55 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left)
+		)
+		(uuid "f7f37efa-61e3-5084-b8a4-16a2fbc773d7")
+	)
+	(text "Local supply bypass"
+		(exclude_from_sim no)
+		(at 20.32 130.81 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff7cfa32-9736-5661-ab77-986f1ba56a13")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 247.65 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "650d8dc6-ceda-51a2-b039-0fed7f7fe121")
+		(property "Reference" "R107"
+			(at 247.65 67.06 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 247.65 69.34 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 247.65 72.39 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29f1afb6-9dfe-441a-b923-2e7260724490")
+		)
+		(pin "2"
+			(uuid "e525040b-5700-4ba5-be86-8f2ea1791fa4")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "R107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "BEAM_GATE"(shape bidirectional)(at 241.3 72.39 180)(effects(font(size 1 1))(justify right))(uuid "37ff66e4-2473-495b-89d1-32865cb679ed"))
+	(wire(pts(xy 241.3 72.39)(xy 243.84 72.39))(stroke(width 0)(type default))(uuid "3d890094-6caa-42fd-8562-859b83586b73"))
+	(global_label "GND"(shape bidirectional)(at 254.0 72.39 0)(effects(font(size 1 1))(justify left))(uuid "3f6bfed1-c607-4cd6-8300-80ab78586f3f"))
+	(wire(pts(xy 251.46 72.39)(xy 254.0 72.39))(stroke(width 0)(type default))(uuid "89f1a709-1d6c-432e-a5a7-ec45e2f0c017"))
+	(symbol
+		(lib_id "Device:R")
+		(at 302.26 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0e2f98b-f801-579c-8569-52d813351076")
+		(property "Reference" "R108"
+			(at 302.26 63.849999999999994 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 302.26 65.85 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 302.26 69.85 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "R108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 302.26 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c380654-ccf4-5d11-96e7-addac9a60fc5")
+		(property "Reference" "R109"
+			(at 302.26 79.09 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 302.26 81.09 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 302.26 85.09 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 331.47 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7978ec81-cdcd-5cf2-8127-a1cfc1c1e294")
+		(property "Reference" "J5"
+			(at 331.47 71.47 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "Audio monitor"
+			(at 331.47 73.47 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 331.47 77.47 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Motherboard"
+				(path "/1629e1cf-3c4f-4b06-b3e7-d1d10fc927f2/4437a252-ec41-5cb5-8a75-7e3804953eb1"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire(pts(xy 293.37 69.85)(xy 298.45 69.85))(stroke(width 0)(type default))(uuid "821a1222-6344-4e8f-9fa8-b00318a233d5"))
+	(global_label "OPTIMIZED_OUT"(shape bidirectional)(at 293.37 69.85 180)(effects(font(size 1 1))(justify right))(uuid "68f18d7c-4cd5-4af5-823f-6d5d3447929b"))
+	(wire(pts(xy 306.07 69.85)(xy 321.31 69.85))(stroke(width 0)(type default))(uuid "4f7250c9-3d1b-4652-9b7b-c2aed268795d"))
+	(wire(pts(xy 321.31 69.85)(xy 321.31 74.93))(stroke(width 0)(type default))(uuid "fbbfa3cf-fbb0-4ec2-ac99-d198dd99d652"))
+	(wire(pts(xy 321.31 74.93)(xy 326.39 74.93))(stroke(width 0)(type default))(uuid "3616644a-a313-49b4-b509-b262a0ccd8e9"))
+	(wire(pts(xy 293.37 85.09)(xy 298.45 85.09))(stroke(width 0)(type default))(uuid "04a9224d-c13e-4f00-b89a-4ac970fd3f20"))
+	(global_label "UNOPTIMIZED_OUT"(shape bidirectional)(at 293.37 85.09 180)(effects(font(size 1 1))(justify right))(uuid "622ae0d3-d127-4ece-bd28-8a1827667a5f"))
+	(wire(pts(xy 306.07 85.09)(xy 321.31 85.09))(stroke(width 0)(type default))(uuid "25b7c6fa-dcd6-4a37-a8e8-c8c815b5f1f2"))
+	(wire(pts(xy 321.31 85.09)(xy 321.31 80.01))(stroke(width 0)(type default))(uuid "221dedaf-161b-43e3-840d-85086458431b"))
+	(wire(pts(xy 321.31 80.01)(xy 326.39 80.01))(stroke(width 0)(type default))(uuid "8b7c4237-07b6-40ac-8327-431132bc45de"))
+	(wire(pts(xy 317.5 77.47)(xy 326.39 77.47))(stroke(width 0)(type default))(uuid "ea8f7448-350e-4849-80ae-0ee36aac3d90"))
+	(global_label "GND"(shape bidirectional)(at 317.5 77.47 180)(effects(font(size 1 1))(justify right))(uuid "9b3204c0-125b-4bc2-bae8-b8b721a78be9"))
+	(text "High-impedance audio monitor"(exclude_from_sim no)(at 281.94 57.15 0)(effects(font(size 1.6 1.6))(justify left bottom))(uuid "666a2b66-d07e-44c4-aa4c-32c5865ded11"))
+)
